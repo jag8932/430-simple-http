@@ -1,0 +1,18 @@
+{
+  "name": "simple-http-assignment-goodwillie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node ./src/server.js",
+    "pretest" : "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "jacob goodwillie",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
